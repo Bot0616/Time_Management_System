@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="16dp" />
+
+    <TextView
+        android:id="@+id/task_title"
+        android:layout_width="120dp"
+        android:layout_height="43dp"
+        android:layout_weight="1"
+        android:text="Task Title Updated"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/task_due_date"
+        android:layout_width="59dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="Due Date Updated"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/task_priority_spinner"
+        android:layout_width="60dp"
+        android:layout_height="29dp"
+        android:layout_marginEnd="8dp"
+        android:text="Priority Updated"
+        android:textSize="12sp" />
+
+    <ImageButton
+        android:id="@+id/edit_button"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="4dp"
+        android:background="@android:color/transparent"
+        android:src="@android:drawable/ic_menu_edit" />
+
+    <ImageButton
+        android:id="@+id/delete_button"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="4dp"
+        android:background="@android:color/transparent"
+        android:src="@android:drawable/ic_menu_delete" />
+
+</LinearLayout>

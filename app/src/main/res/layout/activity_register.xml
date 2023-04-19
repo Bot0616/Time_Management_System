@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B668C"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="120dp"
+        android:text="PRISMOON \nTime Management"
+        android:textSize="35sp"
+        android:textColor="#bb8044"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Registration"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <EditText
+        android:id="@+id/editTextRegUsernameLogin"
+        android:layout_width="263dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:hint="Username"
+        android:textColorHint="@color/white"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTextRegEmail"
+        android:layout_width="263dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:hint="Email"
+        android:textColorHint="@color/white"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTextRegPasswordLogin"
+        android:layout_width="263dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:hint="password"
+        android:textColorHint="@color/white"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTextRegPasswordLogin2"
+        android:layout_width="263dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:hint="Confirm Password"
+        android:textColorHint="@color/white"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="115dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#bb8044"
+        android:text="Register"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textViewExistUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account?"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="478dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+</LinearLayout>

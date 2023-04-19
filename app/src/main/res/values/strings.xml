@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Time Management System</string>
+    <string name="add_task">Add task</string>
+    <string name="delete_task">Delete task</string>
+    <string name="edit_task">Edit task</string>
+    <string name="task_title">Task title</string>
+    <string-array name="priority_levels">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+</resources>

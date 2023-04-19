@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4C695"
+    tools:context=".Pomodoro_main">
+
+
+    <TextView
+        android:id="@+id/textViewCountDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="00:00"
+        android:textColor="@color/black"
+        android:textSize="60dp" />
+
+    <Button
+        android:id="@+id/button_startPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textViewCountDown"
+        android:text="Start"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:backgroundTint="#bb8044"/>
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_startPause"
+        android:text="Reset"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:backgroundTint="#bb8044"
+        android:visibility="invisible"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="408dp"
+        app:srcCompat="@drawable/ic_baseline_timer_24" />
+
+
+</RelativeLayout>
